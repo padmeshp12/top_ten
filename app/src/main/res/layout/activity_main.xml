@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.thet10.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KNOW WHO'S ON THE TOP"
+                android:textSize="28dp"
+                android:textColor="#00695C"
+                android:id="@+id/as"/>
+
+            <ImageView
+                android:layout_marginLeft="14dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/as"
+                android:src="@drawable/sp"
+                android:id="@+id/ad"/>
+
+            <Button
+                android:layout_marginLeft="14dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/ad"
+                android:text="Sports"
+                android:onClick="sport"
+                android:id="@+id/af"
+                android:background="#5C6BC0"/>
+
+            <ImageView
+                android:layout_marginLeft="18dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_toRightOf="@+id/ad"
+                android:layout_below="@+id/as"
+                android:src="@drawable/images"
+                android:id="@+id/ag"/>
+
+            <Button
+                android:layout_marginLeft="18dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/ag"
+                android:layout_toRightOf="@+id/af"
+                android:text="Movies"
+                android:id="@+id/ah"
+                android:background="#5C6BC0"
+                android:onClick="bwood"/>
+
+            <ImageView
+            android:layout_marginLeft="18dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@+id/ag"
+            android:layout_below="@+id/as"
+            android:src="@drawable/series"
+            android:id="@+id/aj"/>
+
+            <Button
+                android:layout_marginLeft="18dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/ag"
+                android:layout_toRightOf="@+id/ah"
+                android:onClick="srs"
+                android:text="Series"
+                android:id="@+id/ak"
+                android:background="#5C6BC0"
+                />
+            <ImageView
+                android:layout_marginLeft="18dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/af"
+                android:src="@drawable/qw"
+                android:id="@+id/aq"/>
+
+            <Button
+                android:layout_marginLeft="18dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/aq"
+                android:onClick="cts"
+                android:text="Cities"
+                android:id="@+id/ap"
+                android:background="#5C6BC0"
+                />
+            <ImageView
+                android:layout_marginLeft="18dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_toRightOf="@+id/aq"
+                android:layout_below="@+id/af"
+                android:src="@drawable/qe"
+                android:id="@+id/ai"/>
+
+            <Button
+                android:layout_marginLeft="18dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/ai"
+                android:layout_toRightOf="@+id/ap"
+                android:onClick="crs"
+                android:text="Cars"
+                android:background="#5C6BC0"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

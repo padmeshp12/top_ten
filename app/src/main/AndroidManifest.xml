@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.example.android.com.thet10" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sports" >
+        </activity>
+        <activity android:name=".fball" >
+        </activity>
+        <activity android:name=".cricket" >
+        </activity>
+        <activity android:name=".basketball" >
+        </activity>
+        <activity android:name=".Movies" >
+        </activity>
+        <activity android:name=".series" >
+        </activity>
+        <activity android:name=".bwood" >
+        </activity>
+        <activity android:name=".hwood" >
+        </activity>
+        <activity android:name=".anm" >
+        </activity>
+        <activity android:name=".comedy" >
+        </activity>
+        <activity android:name=".shrs" >
+        </activity>
+        <activity android:name=".anime" >
+        </activity>
+        <activity android:name=".cts" >
+        </activity>
+        <activity android:name=".crs" >
+        </activity>
+        <activity android:name=".cst" >
+        </activity>
+        <activity android:name=".lgt" >
+        </activity>
+        <activity android:name=".rct" >
+        </activity>
+        <activity android:name=".sdn" >
+        </activity>
+        <activity android:name=".hbk" >
+        </activity>
+        <activity android:name=".suv" >
+        </activity>
+    </application>
+
+</manifest>

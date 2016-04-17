@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.thet10.basketball">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+            <TextView
+                android:layout_margin="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Ten Shows"
+                android:textSize="30dp"
+                android:id="@+id/a"></TextView>
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a"
+                android:text="1.Friends"
+                android:textSize="20dp"
+                android:id="@+id/ba"/>
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ba"
+                android:text="2.Parks and Recreation"
+                android:textSize="20dp"
+                android:id="@+id/bb"/>
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bb"
+                android:text="3.South park"
+                android:textSize="20dp"
+                android:id="@+id/bc"/>
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bc"
+                android:text="4.Arrested Development"
+                android:textSize="20dp"
+                android:id="@+id/bd"/>
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bd"
+                android:id="@+id/be"
+                android:text="5.Frasier"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/be"
+                android:id="@+id/bf"
+                android:text="6.The Office"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bf"
+                android:id="@+id/bg"
+                android:text="7.Family Guy"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bg"
+                android:id="@+id/bh"
+                android:text="8.The Big Bang Theory"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bh"
+                android:id="@+id/bj"
+                android:text="9.How I met your mother "
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_marginLeft="09dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bj"
+                android:text="10.Seinfeild"
+                android:textSize="20dp"
+                android:id="@+id/bk"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
